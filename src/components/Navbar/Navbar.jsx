@@ -2,6 +2,7 @@ import { useState, useContext } from 'react'
 import {searchImg, backImg, closeImg} from '../../assets/images'
 import './navbar.css'
 import { NotesContext } from '../../context/NotesContext'
+import Transition from '../Transition/Transition'
 
 const Navbar = () => {
     const [hide, setHide] = useState(true);
