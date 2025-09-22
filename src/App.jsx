@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar/Navbar"
 import Notes from "./components/Notes/Notes"
 import NotesProvider from "./context/NotesContext"
 import AddBtn from "./components/AddBtn/AddBtn"
+import Transition from "./components/Transition/Transition"
 
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
       <Notes/>
       <Modal/>
       <AddBtn/>
+      <Transition/>
     </NotesProvider>
   )
 }

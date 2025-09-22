@@ -1,7 +1,7 @@
 import { editImg, deleteImg } from "../../assets/images"
 import './notes.css'
 import { NotesContext } from "../../context/NotesContext"
-import { useContext, useState } from "react"
+import { useContext } from "react"
 
 
 const NotesItem = ({list, note}) => {
